@@ -1,0 +1,6 @@
+{
+  "name": "PhoneFix Pro",
+  "description": "Advanced smartphone diagnostics, safety-verified OS update guide, security scanner, error code lookups, and specialized repair guides including OPPO F11 Pro.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

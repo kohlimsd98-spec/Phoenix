@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-surface-base: var(--c-surface-base);
+  --color-surface-card1: var(--c-surface-card1);
+  --color-surface-card2: var(--c-surface-card2);
+  --color-surface-card3: var(--c-surface-card3);
+  --color-surface-border: var(--c-surface-border);
+  --color-text-muted: var(--c-text-muted);
+  --color-text-main: var(--c-text-main);
+  --color-accent-primary: var(--c-accent-primary);
+  --color-accent-secondary: var(--c-accent-secondary);
+  --color-accent-dark: var(--c-accent-dark);
+}
+
+:root {
+  /* Dark theme (default) */
+  --c-surface-base: #090d0b;
+  --c-surface-card1: #101816;
+  --c-surface-card2: #141d19;
+  --c-surface-card3: #1a2622;
+  --c-surface-border: #223530;
+  --c-text-muted: #6f9a8a;
+  --c-text-main: #e4f0ea;
+  --c-accent-primary: #00e68a;
+  --c-accent-secondary: #3dd6c8;
+  --c-accent-dark: #00b86e;
+}
+
+:root.light {
+  /* Light theme */
+  --c-surface-base: #f4f7f6;
+  --c-surface-card1: #ffffff;
+  --c-surface-card2: #edf2f0;
+  --c-surface-card3: #e2e9e6;
+  --c-surface-border: #cbdad4;
+  --c-text-muted: #4b6a5e;
+  --c-text-main: #141d19;
+  --c-accent-primary: #00b86e;
+  --c-accent-secondary: #1f948a;
+  --c-accent-dark: #008a52;
+}
